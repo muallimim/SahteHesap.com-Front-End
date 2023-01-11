@@ -15,6 +15,7 @@
 
 .page{
     background-image: linear-gradient(rgba(0, 131, 131, 0.8), rgba(0, 48, 7, 0.8)), url(../images/bg3.webp);
+    
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -135,6 +136,7 @@ form>button>i{
 
 .allrightsreserved{
     font-size: .7em;
+    text-align: center;
 }
 
 .sol > a{
@@ -145,6 +147,16 @@ form>button>i{
     color: grey;
     transform: scale(1.5);
 }
+
+.sol, .allrightsreserved, .sag{
+    width: 30vw;
+    /* border: 3px solid black; */
+}
+
+.sag{
+    text-align: right;
+}
+
  /* Follow Us */
 
  .follow-us{
