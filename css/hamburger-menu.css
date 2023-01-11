@@ -125,6 +125,18 @@ html, body {
     color: white;
     background-color: #329463;
   }
+
+  .menu > li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu > li > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
