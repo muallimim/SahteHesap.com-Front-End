@@ -9,6 +9,7 @@ html, body {
 * {
   font-family: "Raleway";
   box-sizing: border-box;
+  /* border: 1px solid black; */
 }
 
 .top-nav {
@@ -140,4 +141,48 @@ html, body {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+}
+
+/* Sag Elemanlar */
+
+.sag-elemanlar{
+  margin-left: 44px; 
+  margin-top: -11px;
+  margin-right: 10px;
+  
+}
+
+.sag-elemanlar>a>img{
+  height: 15px;
+  vertical-align: middle;
+}
+
+.sag-elemanlar>a{
+  color: white;
+  font-size: .7em;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 125px 2px 5px;
+  height: 100%;
+}
+
+.sag-elemanlar>a:hover{
+  opacity: .8;
+}
+
+.flag{
+  border: none !important;
+}
+
+.filled{
+  background-color: white;
+  color: #026D6A !important;
+  font-weight: bold;
+}
+
+.right-side{
+  display: flex;
+  justify-content: flex-end;
 }
