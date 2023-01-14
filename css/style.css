@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Raleway);
  
 /* 3 */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 /* font-family: 'Press Start 2P', cursive; */
  
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  * {
+    font-family: "Raleway";
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+  }
+
 .page h2 {
     vertical-align: center;
     text-align: center;
@@ -144,51 +157,21 @@ form>button>i{
 }
 
 .sol > a:hover{
-    color: grey;
+    color: green;
     transform: scale(1.5);
 }
 
 .sol, .allrightsreserved, .sag{
     width: 30vw;
-    /* border: 3px solid black; */
+}
+
+@media screen and (max-width: 720px) {
+    .sol, .allrightsreserved, .sag{
+        width: 80vw;
+        text-align: center !important;
+    }
 }
 
 .sag{
     text-align: right;
 }
-
- /* Follow Us */
-
- .follow-us{
-    padding:20px 0;
-    color: white;
-    display: flex;
-    justify-content: center;
-    background-color: #7736c4;
- }
-
- .follow-us-text{
-    font-size: 25px;
-    margin: 0 30px;
- }
-
- @media screen and (max-width: 720px) {
-    .follow-us-text{
-        /* font-size: 18px; */
-        display: none;
-     }
-}
-
- .follow-us > a{
-    color: white;
-    margin: 0 10px;
-    font-size: 25px;
-    transition: 0.5s;
- }
-
- .follow-us > a:hover{
-    color: #a976e8;
-    transition: ease;
-    
- }
- 
