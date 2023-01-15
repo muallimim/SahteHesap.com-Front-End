@@ -23,7 +23,7 @@ body {
   .bar {
     height: 5px;
     width: 100%;
-    background-color: #329463;
+    background-color: #3399FF;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -75,7 +75,7 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #329463, #329463);
+    background: radial-gradient(circle, #3399FF, #3399FF);
     border-radius: 50%;
     transition: 0.3s ease;
   }
