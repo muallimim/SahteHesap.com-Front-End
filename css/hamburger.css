@@ -15,7 +15,7 @@ body {
   #menu-bar {
     width: 25px;
     height: 20px;
-    margin: 30px 0 20px 20px;
+    margin: 18px 0 20px 20px;
     cursor: pointer;
     /* border: 1px solid black; */
   }
@@ -23,7 +23,7 @@ body {
   .bar {
     height: 5px;
     width: 100%;
-    background-color: #3399FF;
+    background-color: #085c1d;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -66,7 +66,7 @@ body {
   
   .menu-bg, #menu {
     top: 0;
-    right: 70px;
+    right: 30px;
     position: absolute;
   }
   
@@ -75,7 +75,7 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #3399FF, #3399FF);
+    background: radial-gradient(circle, #138830, #085c1d);
     border-radius: 50%;
     transition: 0.3s ease;
   }

@@ -1,0 +1,58 @@
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: #00BAF0;*/
+    /* background: linear-gradient(to left, #4C1D83, #281243); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+    /* border: 1px solid black; */
+  }
+
+  /* Sag Elemanlar */
+
+.sag-elemanlar{
+    margin-left: 44px; 
+    margin-top: -11px;
+    margin-right: 45px;
+    /* border: 1px solid black; */
+  }
+  
+  .sag-elemanlar>a>img{
+    height: 15px;
+    vertical-align: middle;
+  }
+  
+  .sag-elemanlar>a{
+    color: white;
+    font-size: .7em;
+    text-decoration: none;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 125px 2px 5px;
+    height: 100%;
+  }
+  
+  .sag-elemanlar>a:hover{
+    opacity: .8;
+  }
+  
+  .flag{
+    border: none !important;
+  }
+  
+  .filled{
+    background-color: white;
+    color: #026D6A !important;
+    font-weight: bold;
+  }
+  
+  .right-side{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+  }
